@@ -25,7 +25,7 @@ const projects = [
     title: "NPM Package",
     desc: "An advance dropdown with multi-select capabilities.",
     img: "/project5.png",
-    github: "https://github.com/braydentw/learn.theyei",
+    github: "https://github.com/terrytwotoes/Advance-dropdown",
     tags: ["React", "Vite", "TypeScipt", "CSS Module"],
   },
   {
