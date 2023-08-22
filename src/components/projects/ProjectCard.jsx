@@ -43,13 +43,11 @@ const ProjectCard = () => {
     <>
       {projects.map((project) => (
         <div
-          className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center text-[#fcfcfc]"
+          className="max-w-sm mx-auto flex flex-col   md:justify-center text-[#fcfcfc]"
           key={project.id}
         >
-          <img src={AiFillGithub} alt="" />
-          <div
-            className={`w-full relative rounded-xl border-fun-gray border bg-gradient-to-r from-[#26e3c2] to-[#45a0f5] p-2 transition hover:-translate-y-2 hover:opacity-75 `}
-          >
+          {/* <img src={AiFillGithub} alt="" /> */}
+          <div className="w-full  rounded-xl   bg-gradient-to-r from-[#26e3c2] to-[#45a0f5] p-2 transition hover:-translate-y-2 hover:opacity-75">
             <a href={project.link || project.github} target="_blank">
               <img className="w-full rounded-md" src={project.img} />
             </a>
@@ -62,12 +60,12 @@ const ProjectCard = () => {
               <div className="space-x-2 flex">
                 {project.link && (
                   <a href={project.link} target="_blank" rel="noreferrer">
-                    <HiExternalLink className="w-4 h-4" />
+                    <HiExternalLink className="w-6 h-6" />
                   </a>
                 )}
                 {project.github && (
                   <a href={project.github} target="_blank" rel="noreferrer">
-                    <AiFillGithub className="w-4 h-4" />
+                    <AiFillGithub className="w-6 h-6 " />
                   </a>
                 )}
               </div>
