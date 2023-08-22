@@ -1,0 +1,6 @@
+@media screen and (min-width: 1170px) {
+  .vertical-timeline-element-date {
+    color: #fcfcfc;
+    margin: 0 20px;
+  }
+}
